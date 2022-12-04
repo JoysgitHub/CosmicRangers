@@ -31,9 +31,19 @@ public class MyWorld extends World
         setupLives();
     }
 
+    /**
+     * Place Hero at the bottom and the centre
+     * of the screen.
+     */
     private void addHero()
     {
-        addObject(new Hero(), 200, 560);
+        Hero hero = new Hero();
+        int imageSize = hero.getImage().getWidth();
+        
+        int x = SCREEN_WIDTH/2;
+        int y = (SCREEN_HEIGHT - imageSize/2);
+        
+        addObject(hero, x, y);
     }
     
     private void addEnemies()
