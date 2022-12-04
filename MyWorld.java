@@ -11,8 +11,8 @@ public class MyWorld extends World
     public static Counter heroLife = new Counter();
     public static Counter heroScore = new Counter();
 
-    public static final int SCREEN_WIDTH = 400;
-    public static final int SCREEN_HEIGHT = 600;
+    public static final int SCREEN_WIDTH = 600;
+    public static final int SCREEN_HEIGHT = 800;
     
     /**
      * Constructor for objects of class MyWorld.
