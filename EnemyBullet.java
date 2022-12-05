@@ -33,7 +33,6 @@ public class EnemyBullet extends Actor
                 Greenfoot.playSound("enemyexplode.mp3");
                 Greenfoot.setWorld(new LooseWorld());
             }
-            
             getWorld().removeObject(this);
         }
         else if (getY() > 595)
