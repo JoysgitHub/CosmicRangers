@@ -3,7 +3,11 @@ comment0.target=LooseWorld
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ LooseWorld\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+=======
+comment0.text=\r\n\ This\ class\ is\ responsible\ for\ seting\ the\ world\ size\ and\ adding\ the\ restart\ button\ to\ itself.\r\n\ \r\n\ @author\ (Joyson\ Cardoso,\ Keegan\ DeSouza,\ Mohammad\ Matloob)\ \r\n\ @version\ (6/12/2022)\r\n
+>>>>>>> Stashed changes
 =======
 comment0.text=\r\n\ This\ class\ is\ responsible\ for\ seting\ the\ world\ size\ and\ adding\ the\ restart\ button\ to\ itself.\r\n\ \r\n\ @author\ (Joyson\ Cardoso,\ Keegan\ DeSouza,\ Mohammad\ Matloob)\ \r\n\ @version\ (6/12/2022)\r\n
 >>>>>>> Stashed changes
