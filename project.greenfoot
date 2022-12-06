@@ -4,11 +4,20 @@ class.Counter.image=Counter.png
 class.Enemy.image=EnemySprite.png
 class.EnemyBullet.image=Enemy\ Bullet.png
 class.Hero.image=Hero\ Spaceship.png
+<<<<<<< Updated upstream
 class.LooseWorld.image=Space\ (2).jpg
 class.MyWorld.image=Space\ (2).jpg
 class.RestartButton.image=smiley4.png
 class.WinWorld.image=Space\ (2).jpg
 dependency1.from=LooseWorld
+=======
+class.LooseWorld.image=Main_MenuV2.png
+class.MyWorld.image=Main_Background.png
+class.RestartButton.image=Restart.png
+class.Start.image=Start.png
+class.WinWorld.image=Main_MenuV2.png
+dependency1.from=WinWorld
+>>>>>>> Stashed changes
 dependency1.to=RestartButton
 dependency1.type=UsesDependency
 dependency10.from=EnemyBullet
@@ -58,8 +67,13 @@ editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
 height=830
+<<<<<<< Updated upstream
 package.numDependencies=15
 package.numTargets=10
+=======
+package.numDependencies=18
+package.numTargets=12
+>>>>>>> Stashed changes
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
