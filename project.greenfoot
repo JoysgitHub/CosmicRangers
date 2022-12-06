@@ -53,6 +53,7 @@ dependency8.type=UsesDependency
 dependency9.from=EnemyBullet
 dependency9.to=LooseWorld
 dependency9.type=UsesDependency
+<<<<<<< Updated upstream
 editor.fx.0.height=1056
 editor.fx.0.width=1936
 editor.fx.0.x=-1928
@@ -60,6 +61,15 @@ editor.fx.0.y=-8
 height=1056
 package.numDependencies=15
 package.numTargets=10
+=======
+editor.fx.0.height=728
+editor.fx.0.width=800
+editor.fx.0.x=486
+editor.fx.0.y=40
+height=744
+package.numDependencies=18
+package.numTargets=12
+>>>>>>> Stashed changes
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -145,7 +155,11 @@ target9.width=120
 target9.x=0
 target9.y=0
 version=3.0.0
+<<<<<<< Updated upstream
 width=1936
+=======
+width=1382
+>>>>>>> Stashed changes
 world.lastInstantiated=MyWorld
 xPosition=0
 yPosition=0
