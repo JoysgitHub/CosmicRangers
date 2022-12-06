@@ -1,7 +1,11 @@
 #BlueJ class context
 comment0.target=Hero
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ Hero\ here.\r\n\ \r\n\ @author\ (Joyson\ Cardoso)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+=======
+comment0.text=\r\n\ This\ class\ is\ responsible\ for\ creating\ the\ the\ hero,\ getting\ the\ user\ keyboard\ \r\n\ inputs\ and\ shooting\ the\ enemy.\r\n\ \r\n\ @author\ (Joyson\ Cardoso,\ Keegan\ DeSouza,\ Mohammad\ Matloob)\ \r\n\ @version\ (6/12/2022)\r\n
+>>>>>>> Stashed changes
 =======
 comment0.text=\r\n\ This\ class\ is\ responsible\ for\ creating\ the\ the\ hero,\ getting\ the\ user\ keyboard\ \r\n\ inputs\ and\ shooting\ the\ enemy.\r\n\ \r\n\ @author\ (Joyson\ Cardoso,\ Keegan\ DeSouza,\ Mohammad\ Matloob)\ \r\n\ @version\ (6/12/2022)\r\n
 >>>>>>> Stashed changes

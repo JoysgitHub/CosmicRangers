@@ -14,8 +14,14 @@ public class Enemy extends Actor
      */
     
     public Enemy()
+<<<<<<< Updated upstream
     {
         getImage().scale(70,70);
+=======
+    {   
+        //This line sets the enemy sprite size.
+        getImage().scale(90,90); 
+>>>>>>> Stashed changes
     }
     
     int enemySpeed = 1;
