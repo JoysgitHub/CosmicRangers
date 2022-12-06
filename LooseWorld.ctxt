@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=LooseWorld
-comment0.text=\r\n\ This\ class\ is\ responsible\ for\ seting\ the\ world\ size\ and\ adding\ the\ restart\ button\ to\ itself.\r\n\ \r\n\ @author\ (Joyson\ Cardoso,\ Keegan\ DeSouza,\ Mohammad\ Matloob)\ \r\n\ @version\ (6/12/2022)\r\n
+comment0.text=\n\ This\ class\ is\ responsible\ for\ seting\ the\ world\ size\ and\ adding\ the\ restart\ button\ to\ itself.\n\ \n\ @author\ (Joyson\ Cardoso,\ Keegan\ DeSouza,\ Mohammad\ Matloob)\ \n\ @version\ (6/12/2022)\n
 comment1.params=
 comment1.target=LooseWorld()
-comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ LooseWorld.\r\n\ \r\n
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ LooseWorld.\n\ \n
 numComments=2
