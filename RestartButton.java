@@ -16,7 +16,7 @@ public class RestartButton extends Actor
     public RestartButton()
     {   
         //This sets the bullet size
-        getImage().scale(150,80);
+        getImage().scale(250,250);
     }
     public void act()
     {
