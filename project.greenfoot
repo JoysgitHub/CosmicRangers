@@ -8,6 +8,7 @@ class.Hero.image=Hero\ Spaceship.png
 class.LooseWorld.image=Backgroundv3.png
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 class.MyWorld.image=Main_Background.png
 class.RestartButton.image=Restart.png
 class.Start.image=Start.png
@@ -17,6 +18,11 @@ dependency1.from=LooseWorld
 class.MyWorld.image=Mainv2.png
 class.RestartButton.image=Restart.png
 class.Start.image=Start.png
+=======
+class.MyWorld.image=Mainv2.png
+class.RestartButton.image=Restart.png
+class.Start.image=Start.png
+>>>>>>> Stashed changes
 =======
 class.MyWorld.image=Mainv2.png
 class.RestartButton.image=Restart.png
@@ -76,9 +82,15 @@ editor.fx.0.x=360
 editor.fx.0.y=26
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 height=814
 package.numDependencies=15
 package.numTargets=12
+=======
+height=830
+package.numDependencies=18
+package.numTargets=13
+>>>>>>> Stashed changes
 =======
 height=830
 package.numDependencies=18
@@ -200,7 +212,11 @@ world.lastInstantiated=MyWorld
 xPosition=0
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 yPosition=24
+=======
+yPosition=0
+>>>>>>> Stashed changes
 =======
 yPosition=0
 >>>>>>> Stashed changes

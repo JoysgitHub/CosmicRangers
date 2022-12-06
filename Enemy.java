@@ -22,7 +22,11 @@ public class Enemy extends Actor
         //This line sets the enemy sprite size.
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         getImage().scale(90,90); 
+>>>>>>> Stashed changes
+=======
+        getImage().scale(85,85); 
 >>>>>>> Stashed changes
 =======
         getImage().scale(85,85); 
