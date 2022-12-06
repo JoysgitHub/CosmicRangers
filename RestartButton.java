@@ -1,10 +1,10 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class RestartButton here.
+ * This class creates a restart button and allows the player to restart the game.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Joyson Cardoso, Keegan DeSouza, Mohammad Matloob) 
+ * @version (6/12/2022)
  */
 public class RestartButton extends Actor
 {
@@ -14,6 +14,7 @@ public class RestartButton extends Actor
      */
     public void act()
     {
+        /*This if statment checks if the player left clicks on the restart sprite and sets the the world to MyWorld.*/
         if(Greenfoot.mousePressed(this))
         {
             Greenfoot.setWorld(new MyWorld());
