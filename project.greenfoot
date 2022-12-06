@@ -3,21 +3,6 @@ class.Bullet.image=HeroBullet.png
 class.Counter.image=Counter.png
 class.Enemy.image=EnemySprite.png
 class.EnemyBullet.image=Enemy\ Bullet.png
-<<<<<<< Updated upstream
-class.Hero.image=Hero\ Spaceship.png
-<<<<<<< Updated upstream
-class.LooseWorld.image=Space\ (2).jpg
-class.MyWorld.image=Space\ (2).jpg
-class.RestartButton.image=smiley4.png
-class.WinWorld.image=Space\ (2).jpg
-dependency1.from=LooseWorld
-=======
-class.LooseWorld.image=Main_MenuV2.png
-class.MyWorld.image=Main_Background.png
-class.RestartButton.image=Restart.png
-class.Start.image=Start.png
-class.WinWorld.image=Main_MenuV2.png
-=======
 class.Exit.image=Exit.png
 class.Hero.image=Hero\ Spaceship.png
 class.LooseWorld.image=Backgroundv3.png
@@ -26,78 +11,67 @@ class.RestartButton.image=Restart.png
 class.Start.image=Start.png
 class.Tutorial.image=Tutorial.png
 class.WinWorld.image=Backgroundv3.png
->>>>>>> Stashed changes
 dependency1.from=WinWorld
->>>>>>> Stashed changes
 dependency1.to=RestartButton
 dependency1.type=UsesDependency
-dependency10.from=EnemyBullet
+dependency10.from=Bullet
 dependency10.to=MyWorld
 dependency10.type=UsesDependency
-dependency11.from=Enemy
-dependency11.to=SimpleTimer
+dependency11.from=EnemyBullet
+dependency11.to=Hero
 dependency11.type=UsesDependency
-dependency12.from=Enemy
-dependency12.to=EnemyBullet
+dependency12.from=EnemyBullet
+dependency12.to=LooseWorld
 dependency12.type=UsesDependency
-dependency13.from=Hero
-dependency13.to=SimpleTimer
+dependency13.from=EnemyBullet
+dependency13.to=MyWorld
 dependency13.type=UsesDependency
-dependency14.from=Hero
-dependency14.to=Bullet
+dependency14.from=Enemy
+dependency14.to=SimpleTimer
 dependency14.type=UsesDependency
-dependency15.from=RestartButton
-dependency15.to=MyWorld
+dependency15.from=Enemy
+dependency15.to=EnemyBullet
 dependency15.type=UsesDependency
-dependency2.from=MyWorld
-dependency2.to=Counter
+dependency16.from=Hero
+dependency16.to=SimpleTimer
+dependency16.type=UsesDependency
+dependency17.from=Hero
+dependency17.to=Bullet
+dependency17.type=UsesDependency
+dependency18.from=RestartButton
+dependency18.to=MyWorld
+dependency18.type=UsesDependency
+dependency2.from=WinWorld
+dependency2.to=Exit
 dependency2.type=UsesDependency
-dependency3.from=MyWorld
-dependency3.to=Hero
+dependency3.from=LooseWorld
+dependency3.to=RestartButton
 dependency3.type=UsesDependency
-dependency4.from=MyWorld
-dependency4.to=Enemy
+dependency4.from=LooseWorld
+dependency4.to=Exit
 dependency4.type=UsesDependency
-dependency5.from=Bullet
-dependency5.to=Enemy
+dependency5.from=MyWorld
+dependency5.to=Counter
 dependency5.type=UsesDependency
-dependency6.from=Bullet
-dependency6.to=WinWorld
+dependency6.from=MyWorld
+dependency6.to=Hero
 dependency6.type=UsesDependency
-dependency7.from=Bullet
-dependency7.to=MyWorld
+dependency7.from=MyWorld
+dependency7.to=Enemy
 dependency7.type=UsesDependency
-dependency8.from=EnemyBullet
-dependency8.to=Hero
+dependency8.from=Bullet
+dependency8.to=Enemy
 dependency8.type=UsesDependency
-dependency9.from=EnemyBullet
-dependency9.to=LooseWorld
+dependency9.from=Bullet
+dependency9.to=WinWorld
 dependency9.type=UsesDependency
-<<<<<<< Updated upstream
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
-<<<<<<< Updated upstream
-height=830
-<<<<<<< Updated upstream
-package.numDependencies=15
-package.numTargets=10
-=======
-package.numDependencies=18
-package.numTargets=12
->>>>>>> Stashed changes
-=======
-=======
-editor.fx.0.height=830
-editor.fx.0.width=1550
-editor.fx.0.x=-7
-editor.fx.0.y=-7
->>>>>>> Stashed changes
+editor.fx.0.height=737
+editor.fx.0.width=814
+editor.fx.0.x=360
+editor.fx.0.y=26
 height=814
 package.numDependencies=18
 package.numTargets=13
->>>>>>> Stashed changes
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -120,20 +94,12 @@ target1.width=120
 target1.x=0
 target1.y=0
 target10.height=70
-<<<<<<< Updated upstream
-target10.name=RestartButton
-=======
 target10.name=Hero
->>>>>>> Stashed changes
 target10.showInterface=false
 target10.type=ClassTarget
 target10.width=120
 target10.x=0
 target10.y=0
-<<<<<<< Updated upstream
-target2.height=70
-target2.name=WinWorld
-=======
 target11.height=70
 target11.name=MyWorld
 target11.showInterface=false
@@ -157,7 +123,6 @@ target13.x=0
 target13.y=0
 target2.height=70
 target2.name=Tutorial
->>>>>>> Stashed changes
 target2.showInterface=false
 target2.type=ClassTarget
 target2.width=120
@@ -171,66 +136,42 @@ target3.width=120
 target3.x=0
 target3.y=0
 target4.height=70
-<<<<<<< Updated upstream
-target4.name=Counter
-=======
 target4.name=SimpleTimer
->>>>>>> Stashed changes
 target4.showInterface=false
 target4.type=ClassTarget
 target4.width=120
 target4.x=0
 target4.y=0
 target5.height=70
-<<<<<<< Updated upstream
-target5.name=LooseWorld
-=======
 target5.name=Start
->>>>>>> Stashed changes
 target5.showInterface=false
 target5.type=ClassTarget
 target5.width=120
 target5.x=0
 target5.y=0
 target6.height=70
-<<<<<<< Updated upstream
-target6.name=SimpleTimer
-=======
 target6.name=WinWorld
->>>>>>> Stashed changes
 target6.showInterface=false
 target6.type=ClassTarget
 target6.width=120
 target6.x=0
 target6.y=0
 target7.height=70
-<<<<<<< Updated upstream
-target7.name=Enemy
-=======
 target7.name=Counter
->>>>>>> Stashed changes
 target7.showInterface=false
 target7.type=ClassTarget
 target7.width=120
 target7.x=0
 target7.y=0
 target8.height=70
-<<<<<<< Updated upstream
-target8.name=Hero
-=======
 target8.name=LooseWorld
->>>>>>> Stashed changes
 target8.showInterface=false
 target8.type=ClassTarget
 target8.width=120
 target8.x=0
 target8.y=0
 target9.height=70
-<<<<<<< Updated upstream
-target9.name=MyWorld
-=======
 target9.name=Enemy
->>>>>>> Stashed changes
 target9.showInterface=false
 target9.type=ClassTarget
 target9.width=120
@@ -240,12 +181,4 @@ version=3.0.0
 width=1550
 world.lastInstantiated=MyWorld
 xPosition=0
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-yPosition=0
-=======
 yPosition=8
->>>>>>> Stashed changes
-=======
-yPosition=8
->>>>>>> Stashed changes
