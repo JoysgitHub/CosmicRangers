@@ -3,7 +3,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * This class creates a win world screen that lets the play know that they have won.
  * 
- * @author (Joyson Cardoso, Keegan DeSouza, Mohammad Matloob) 
+ * @author (Joyson Cardoso, Keegan De souza, Mohammad Matloob) 
  * @version (6/12/2022)
  */
 public class WinWorld extends World

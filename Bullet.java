@@ -1,10 +1,11 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Bullet here.
+ * This class is responsible for creating the bullet object, setting its speed, 
+ * shooting the enemy bullet and removing the enemy   .
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Joyson Cardoso, Keegan De souza, Mohammad Matloob) 
+ * @version (6/12/2022)
  */
 public class Bullet extends Actor
 {

@@ -26,9 +26,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  *     }
  * }
  * </pre>
- * 
- * @author Neil Brown and Michael Kölling 
- * @version 1.0
+ * @author (Joyson Cardoso, Keegan De souza, Mohammad Matloob) 
+ * @version (6/12/2022)
  */
 public class Counter extends Actor
 {
