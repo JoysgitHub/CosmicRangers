@@ -21,6 +21,16 @@ public class MainMenu extends World
         addObject(new StartButton(),150,450);
         // This adds the Tutorial button to the "Main menu".
         addObject(new TutorialButton(),380,450);
+        prepare();
     }
-     
+
+    /**
+     * Prepare the world for the start of the program.
+     * That is: create the initial objects and add them to the world.
+     */
+    private void prepare()
+    {
+        Music music = new Music();
+        addObject(music,56,29);
+    }
 }

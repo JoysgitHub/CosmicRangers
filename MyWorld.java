@@ -9,6 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class MyWorld extends World
 {
+    
     /*These lines of code use the built in counter to create a new 
      * counter for the hero life and score  */
     public static Counter heroLife = new Counter();
@@ -16,6 +17,7 @@ public class MyWorld extends World
     //These lines of code create the constants for the screen height and width.
     public static final int SCREEN_WIDTH = 500;
     public static final int SCREEN_HEIGHT = 600;
+    
     /**
      * Constructor for objects of class MyWorld.
      */
@@ -63,10 +65,12 @@ public class MyWorld extends World
           addEnemy();
             
       }
+    
     }
     /*This function gets a random number between 0 - 480 and adds the enemy to a random x position when called*/
     public void addEnemy()
     {
          addObject(new Enemy(), Greenfoot.getRandomNumber(480),0);
     }
+
 }

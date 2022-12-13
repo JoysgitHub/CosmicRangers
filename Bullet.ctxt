@@ -1,9 +1,9 @@
 #BlueJ class context
 comment0.target=Bullet
-comment0.text=\r\n\ This\ class\ is\ responsible\ for\ creating\ the\ bullet\ object,\ setting\ its\ speed,\ \r\n\ shooting\ the\ enemy\ bullet\ and\ removing\ the\ enemy\ \ \ .\r\n\ \r\n\ @author\ (Joyson\ Cardoso,\ Keegan\ De\ souza,\ Mohammad\ Matloob)\ \r\n\ @version\ (6/12/2022)\r\n
+comment0.text=\n\ This\ class\ is\ responsible\ for\ creating\ the\ bullet\ object,\ setting\ its\ speed,\ \n\ shooting\ the\ enemy\ bullet\ and\ removing\ the\ enemy\ \ \ .\n\ \n\ @author\ (Joyson\ Cardoso,\ Keegan\ De\ souza,\ Mohammad\ Matloob)\ \n\ @version\ (6/12/2022)\n
 comment1.params=
 comment1.target=Bullet()
 comment2.params=
 comment2.target=void\ act()
-comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Bullet\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.text=\n\ Act\ -\ do\ whatever\ the\ Bullet\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
 numComments=3

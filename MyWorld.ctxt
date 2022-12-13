@@ -1,21 +1,21 @@
 #BlueJ class context
 comment0.target=MyWorld
-comment0.text=\r\n\ This\ class\ is\ responsible\ for\ adding\ creating\ hero\ life\ and\ score\ counters,\ \r\n\ setting\ the\ main\ world\ size\ and\ spawning\ all\ the\ actors\ necessary\ for\ gameplay.\r\n\ \r\n\ @author\ (Joyson\ Cardoso,\ Keegan\ De\ souza,\ Mohammad\ Matloob)\ \r\n\ @version\ (6/12/2022)\r\n
+comment0.text=\n\ This\ class\ is\ responsible\ for\ adding\ creating\ hero\ life\ and\ score\ counters,\ \n\ setting\ the\ main\ world\ size\ and\ spawning\ all\ the\ actors\ necessary\ for\ gameplay.\n\ \n\ @author\ (Joyson\ Cardoso,\ Keegan\ De\ souza,\ Mohammad\ Matloob)\ \n\ @version\ (6/12/2022)\n
 comment1.params=
 comment1.target=MyWorld()
-comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ MyWorld.\r\n
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ MyWorld.\n
 comment2.params=
 comment2.target=void\ addLife()
-comment2.text=This\ function\ sets\ the\ hero\ life\ value\ to\ 10\ and\ adds\ the\ counter\ to\ the\ specified\ x\r\nand\ y\ coordinates\ on\ the\ screen.
+comment2.text=This\ function\ sets\ the\ hero\ life\ value\ to\ 10\ and\ adds\ the\ counter\ to\ the\ specified\ x\nand\ y\ coordinates\ on\ the\ screen.
 comment3.params=
 comment3.target=void\ addScore()
-comment3.text=Thia\ function\ sets\ the\ hero\ score\ to\ 0\ and\ adds\ the\ counter\ to\ the\ world\ to\ the\ \r\nspecfied\ x\ and\ y\ coordinates
+comment3.text=Thia\ function\ sets\ the\ hero\ score\ to\ 0\ and\ adds\ the\ counter\ to\ the\ world\ to\ the\ \nspecfied\ x\ and\ y\ coordinates
 comment4.params=
 comment4.target=void\ addHero()
-comment4.text=This\ block\ of\ code\ creates\ a\ hero\ object\ using\ the\ Hero\ class,\ gets\ the\ screen\ width\ and\ divides\ \r\n\ it\ by\ two\ to\ get\ the\ x\ coordinate\ and\ then\ gets\ the\ hero\ width\ divides\ it\ by\ two\ and\ takes\ it\ away\r\nfrom\ the\ screen\ height\ to\ create\ the\ y\ coordinate\ and\ finally\ uses\ the\ two\ variables\ to\ add\ the\ hero\ to\ the\ screen
+comment4.text=This\ block\ of\ code\ creates\ a\ hero\ object\ using\ the\ Hero\ class,\ gets\ the\ screen\ width\ and\ divides\ \n\ it\ by\ two\ to\ get\ the\ x\ coordinate\ and\ then\ gets\ the\ hero\ width\ divides\ it\ by\ two\ and\ takes\ it\ away\nfrom\ the\ screen\ height\ to\ create\ the\ y\ coordinate\ and\ finally\ uses\ the\ two\ variables\ to\ add\ the\ hero\ to\ the\ screen
 comment5.params=
 comment5.target=void\ act()
-comment5.text=This\ function\ gets\ a\ random\ number\ between\ 1\ and\ 60\ to\ avoid\ adding\ too\ many\ enemys\ to\ the\ screen\ and\r\nadds\ the\ enemy\ to\ the\ screen\ using\ the\ addEnemy\ function
+comment5.text=This\ function\ gets\ a\ random\ number\ between\ 1\ and\ 60\ to\ avoid\ adding\ too\ many\ enemys\ to\ the\ screen\ and\nadds\ the\ enemy\ to\ the\ screen\ using\ the\ addEnemy\ function
 comment6.params=
 comment6.target=void\ addEnemy()
 comment6.text=This\ function\ gets\ a\ random\ number\ between\ 0\ -\ 480\ and\ adds\ the\ enemy\ to\ a\ random\ x\ position\ when\ called
