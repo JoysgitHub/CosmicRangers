@@ -65,6 +65,7 @@ dependency8.type=UsesDependency
 dependency9.from=Bullet
 dependency9.to=WinWorld
 dependency9.type=UsesDependency
+<<<<<<< Updated upstream
 editor.fx.0.height=739
 editor.fx.0.width=816
 editor.fx.0.x=275
@@ -72,6 +73,15 @@ editor.fx.0.y=-4
 height=744
 package.numDependencies=18
 package.numTargets=13
+=======
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
+height=830
+package.numDependencies=24
+package.numTargets=16
+>>>>>>> Stashed changes
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
