@@ -1,10 +1,10 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Exist here .
+ * This class creates a Exit button which allows the player to exit the page.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Joyson Cardoso, Keegan De souza, Mohammad Matloob) 
+ * @version (6/12/2022)
  */
 public class Exit extends Actor
 {
@@ -15,7 +15,7 @@ public class Exit extends Actor
      public Exit()
     {   
         //This sets the bullet size
-        getImage().scale(250,250);
+        getImage().scale(250,100);
     }
     public void act()
     {

@@ -3,7 +3,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * This class is responsible for seting the world size and adding the restart button to itself.
  * 
- * @author (Joyson Cardoso, Keegan DeSouza, Mohammad Matloob) 
+ * @author (Joyson Cardoso, Keegan De souza, Mohammad Matloob) 
  * @version (6/12/2022)
  */
 public class LooseWorld extends World

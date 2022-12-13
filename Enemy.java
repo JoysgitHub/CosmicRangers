@@ -4,7 +4,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * This class is responsible for creating the enemy object, setting its speed, 
  * shooting the enemy bullet and removing the enemy   .
  * 
- * @author (Joyson Cardoso, Keegan DeSouza, Mohammad Matloob) 
+ * @author (Joyson Cardoso, Keegan De souza, Mohammad Matloob) 
  * @version (6/12/2022)
  */
 public class Enemy extends Actor
@@ -16,7 +16,7 @@ public class Enemy extends Actor
     public Enemy()
     {   
         //This line sets the enemy sprite size.
-        getImage().scale(70,70); 
+        getImage().scale(90,90); 
     }
     /*These variables set the enemy speed, create a timer to space out the shooting 
      * and generate a random number between 1-8000 milliseconds. */

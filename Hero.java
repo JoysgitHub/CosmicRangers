@@ -4,7 +4,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * This class is responsible for creating the the hero, getting the user keyboard 
  * inputs and shooting the enemy.
  * 
- * @author (Joyson Cardoso, Keegan DeSouza, Mohammad Matloob) 
+ * @author (Joyson Cardoso, Keegan De souza, Mohammad Matloob) 
  * @version (6/12/2022)
  */
     public class Hero extends Actor

@@ -4,12 +4,13 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * This class is responsible for adding creating hero life and score counters, 
  * setting the main world size and spawning all the actors necessary for gameplay.
  * 
- * @author (Joyson Cardoso, Keegan DeSouza, Mohammad Matloob) 
+ * @author (Joyson Cardoso, Keegan De souza, Mohammad Matloob) 
  * @version (6/12/2022)
  */
 public class MyWorld extends World
 {
-    /*These lines of code use the built in counter to create a new counter for the hero life and score  */
+    /*These lines of code use the built in counter to create a new 
+     * counter for the hero life and score  */
     public static Counter heroLife = new Counter();
     public static Counter heroScore = new Counter();
     //These lines of code create the constants for the screen height and width.
@@ -18,7 +19,6 @@ public class MyWorld extends World
     /**
      * Constructor for objects of class MyWorld.
      */
-    
     public MyWorld()
     {    
         // This Creates a new world with 400x600 cells with a cell size of 1x1 pixels.
@@ -51,7 +51,7 @@ public class MyWorld extends World
         Hero hero = new Hero();
         int imageSize = hero.getImage().getWidth();
         int x = SCREEN_WIDTH/2;
-        int y = (SCREEN_HEIGHT - imageSize/2);
+        int y = (SCREEN_HEIGHT - imageSize/1);
         addObject(hero, x, y);
     }
     /*This function gets a random number between 1 and 60 to avoid adding too many enemys to the screen and
@@ -59,14 +59,14 @@ public class MyWorld extends World
     public void act()
     {
         if (Greenfoot.getRandomNumber(60)<1)
-        {
-            addEnemy();
-        }   
+      {
+          addEnemy();
+            
+      }
     }
     /*This function gets a random number between 0 - 480 and adds the enemy to a random x position when called*/
     public void addEnemy()
     {
          addObject(new Enemy(), Greenfoot.getRandomNumber(480),0);
     }
-
 }
