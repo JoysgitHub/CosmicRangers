@@ -4,7 +4,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * This class is responsible for adding creating hero life and score counters, 
  * setting the main world size and spawning all the actors necessary for gameplay.
  * 
- * @author (Joyson Cardoso, Keegan DeSouza, Mohammad Matloob) 
+ * @author (Joyson Cardoso, Keegan De souza, Mohammad Matloob) 
  * @version (6/12/2022)
  */
 public class MyWorld extends World
@@ -33,7 +33,7 @@ public class MyWorld extends World
      * and y coordinates on the screen. */
       private void addLife()
     {
-        heroLife.setValue(10);
+        heroLife.setValue(1);
         addObject(heroLife, 60, 590);
     }
     /*Thia function sets the hero score to 0 and adds the counter to the world to the 

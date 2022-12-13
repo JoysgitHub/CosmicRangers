@@ -3,7 +3,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * This class creates a restart button and allows the player to restart the game.
  * 
- * @author (Joyson Cardoso, Keegan DeSouza, Mohammad Matloob) 
+ * @author (Joyson Cardoso, Keegan De souza, Mohammad Matloob) 
  * @version (6/12/2022)
  */
 public class RestartButton extends Actor
@@ -16,7 +16,7 @@ public class RestartButton extends Actor
     public RestartButton()
     {   
         //This sets the bullet size
-        getImage().scale(250,250);
+        getImage().scale(250,100);
     }
     public void act()
     {
