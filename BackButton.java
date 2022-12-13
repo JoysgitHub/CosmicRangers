@@ -1,28 +1,29 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * This class creates a Exit button which allows the player to exit the page.
+ * This class creates a back button which allows the player to go back to the previous
+ * page.
  * 
  * @author (Joyson Cardoso, Keegan De souza, Mohammad Matloob) 
  * @version (6/12/2022)
  */
-public class Exit extends Actor
+public class BackButton extends Actor
 {
     /**
      * Act - do whatever the Exist wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-     public Exit()
+     public BackButton()
     {   
         //This sets the bullet size
-        getImage().scale(250,100);
+        getImage().scale(100,100);
     }
     public void act()
     {
     if(Greenfoot.mousePressed(this))
-    //This stops the game.  
+    //This sends the user back to the main menu.  
         {
-            Greenfoot.stop();
+            Greenfoot.setWorld(new MainMenu());
         }
     }
 }

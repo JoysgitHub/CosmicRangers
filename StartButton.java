@@ -1,22 +1,22 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * This class creates a Restart button and allows the player to restart the game.
+ * This class creates a start button and allows the player to start the game.
  * 
  * @author (Joyson Cardoso, Keegan De souza, Mohammad Matloob) 
  * @version (6/12/2022)
  */
-public class RestartButton extends Actor
+public class StartButton extends Actor
 {
     /**
-     * Act - do whatever the RestartButton wants to do. This method is called whenever
+     * Act - do whatever the StartButton wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     
-    public RestartButton()
+    public StartButton()
     {   
         //This sets the bullet size
-        getImage().scale(250,100);
+        getImage().scale(200,100);
     }
     public void act()
     {
