@@ -20,11 +20,13 @@ public class MyWorld extends World
      */
     
     public MyWorld()
-    {    
+    {   
         // This Creates a new world with 400x600 cells with a cell size of 1x1 pixels.
         super(SCREEN_WIDTH,SCREEN_HEIGHT, 1); 
         /*These lines of code call the addScore, addLife and addHero function which 
          * adds the counters and the hero to the screen.*/
+        
+        prepare();
         addScore();
         addLife();
         addHero();
@@ -59,14 +61,31 @@ public class MyWorld extends World
     public void act()
     {
         if (Greenfoot.getRandomNumber(60)<1)
+<<<<<<< Updated upstream
         {
             addEnemy();
         }   
+=======
+      {
+          addEnemy();
+        
+      }
+>>>>>>> Stashed changes
     }
     /*This function gets a random number between 0 - 480 and adds the enemy to a random x position when called*/
     public void addEnemy()
     {
          addObject(new Enemy(), Greenfoot.getRandomNumber(480),0);
     }
+<<<<<<< Updated upstream
 
 }
+=======
+    private void prepare()
+    {
+
+        Music music = new Music();
+        addObject(music,58,34);
+    }
+}
+>>>>>>> Stashed changes
