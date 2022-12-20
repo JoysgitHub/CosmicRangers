@@ -1,1 +1,2 @@
-This folder contains images for the Wiki Page 
+"This folder contains images for the Wiki Page"<br >
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br />
