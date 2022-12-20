@@ -61,26 +61,16 @@ public class MyWorld extends World
     public void act()
     {
         if (Greenfoot.getRandomNumber(60)<1)
-<<<<<<< Updated upstream
         {
             addEnemy();
-        }   
-=======
-      {
-          addEnemy();
-        
-      }
->>>>>>> Stashed changes
+        }
     }
-    /*This function gets a random number between 0 - 480 and adds the enemy to a random x position when called*/
+   /*This function gets a random number between 0 - 480 and adds the enemy to a random x position when called*/
     public void addEnemy()
     {
          addObject(new Enemy(), Greenfoot.getRandomNumber(480),0);
     }
-<<<<<<< Updated upstream
-
-}
-=======
+    
     private void prepare()
     {
 
@@ -88,4 +78,3 @@ public class MyWorld extends World
         addObject(music,58,34);
     }
 }
->>>>>>> Stashed changes
