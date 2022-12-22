@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=WinWorld
-comment0.text=\n\ This\ class\ creates\ a\ win\ world\ screen\ that\ lets\ the\ play\ know\ that\ they\ have\ won.\n\ \n\ @author\ (Joyson\ Cardoso,\ Keegan\ De\ souza,\ Mohammad\ Matloob)\ \n\ @version\ (6/12/2022)\n
+comment0.text=\r\n\ This\ class\ creates\ a\ win\ world\ screen\ that\ lets\ the\ play\ know\ that\ they\ have\ won.\r\n\ \r\n\ @author\ (Joyson\ Cardoso,\ Keegan\ De\ souza,\ Mohammad\ Matloob)\ \r\n\ @version\ (6/12/2022)\r\n
 comment1.params=
 comment1.target=WinWorld()
-comment1.text=\n\ Constructor\ for\ objects\ of\ class\ WinWorld.\n
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ WinWorld.\r\n
 numComments=2

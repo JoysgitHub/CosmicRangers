@@ -20,7 +20,7 @@ public class StartButton extends Actor
     }
     public void act()
     {
-        /*This if statment checks if the player left clicks on the restart sprite and sets the the world to MyWorld.*/
+        /*This if statment checks if the player left clicks on the start sprite and sets the the world to MyWorld.*/
         if(Greenfoot.mousePressed(this))
         {
             Greenfoot.setWorld(new MyWorld());
