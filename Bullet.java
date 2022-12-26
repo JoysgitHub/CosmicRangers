@@ -35,7 +35,7 @@ public class Bullet extends Actor
             Greenfoot.playSound("enemyexplode.mp3");
             getWorld().removeObject(this);
             MyWorld.heroScore.add(5);
-            if (MyWorld.heroScore.getValue() == 100)
+            if (MyWorld.heroScore.getValue() == 50)
             {
                 Greenfoot.setWorld(new WinWorld());
             }
